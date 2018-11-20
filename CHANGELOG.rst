@@ -2,7 +2,7 @@
 ---------------------------------
 - Electric grippers are now represented in meshes and xacro, onboard the robot and in Gazebo!
 - baxter.urdf is now deprecated. Use baxter.urdf.xacro instead:
-  rosrun xacro xacro.py --inorder `rospack find baxter_description`/urdf/baxter.urdf.xacro
+  rosrun xacro xacro.py `rospack find baxter_description`/urdf/baxter.urdf.xacro
 - The core of baxter.urdf now lives in baxter_base/baxter_base.urdf.xacro (which gets invoked by baxter.urdf.xacro)
 - Gazebo tags were removed from baxter_base.urdf.xacro and can now be optionally included at the top level
   baxter.urdf.xacro with an arg: `gazebo:=true`
