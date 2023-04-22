@@ -228,7 +228,9 @@
     <child link="screen"/>
   </joint>
   <joint name="head_camera" type="fixed">
-    <origin rpy="1.75057 0 1.57079632679" xyz="0.12839 0 0.06368"/>
+    <!-- NICK PADILLA updated this to ensure the camera transformation is correct.-->
+    <!-- <origin rpy="1.75057 0 1.57079632679" xyz="0.12839 0 0.06368"/> -->
+    <origin rpy="-2.53072 0 -1.57079632679" xyz="0.12839 0 0.06368"/>
     <parent link="head"/>
     <child link="head_camera"/>
   </joint>
