@@ -60,7 +60,7 @@
     <sensor name="head_camera" type="camera">
       <update_rate>30.0</update_rate>
       <camera name="head_camera">
-        <pose>0.0 0.21 0.0 0.0 -0.8 -1.570796327 </pose>
+        <pose>0 0 0 0 -1.57079632679 1.57079632679 </pose>
         <horizontal_fov>1.3962634</horizontal_fov>
         <image>
           <width>800</width>
